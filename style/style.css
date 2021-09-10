@@ -1,0 +1,90 @@
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+     width: 1152px;
+    height: 700px;
+    background: #FAA307;
+    display: flex;
+    
+    justify-content:center;
+    align-items: center;
+
+}
+
+.wrapper-boxes{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+.box-1, .box-3, .box-5{
+    width: 273px;
+    height: 220px;
+    background-color: #03071E;
+    margin: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box-2, .box-4{
+    background-color: #6A040F;
+    margin: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 273px;
+    height: 220px;
+}
+
+.box-1{
+    align-content: end;
+}
+.box-2{
+
+    justify-content: flex-end;
+    flex-wrap: wrap-reverse;
+    align-content: baseline
+    
+}
+.box-3{
+
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.box-4{
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box-5{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.circle1, .circle2, .circle3, .circle4, .circle5, .box-5-circle1, .box-5-circle2, .box-5-circle3, 
+.box-5-circle4, .box-5-circle5, .box-5-circle6, .box-4-circle1, .box-4-circle2, .box-4-circle3, 
+.box-4-circle4, .box-4-circle5, .box-4-circle6, .box-3-circle1, .box-3-circle2, .box-3-circle3, 
+.box-3-circle4, .box-3-circle5, .box-3-circle6, .box-2-circle1, .box-2-circle2, .box-2-circle3, 
+.box-2-circle4, .box-2-circle5{
+    
+    background: #748CAB;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin:10px ;
+}
+
+
+
+
